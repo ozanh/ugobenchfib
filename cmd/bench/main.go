@@ -44,7 +44,7 @@ func main() {
 		formatDuration(execCommand("starlark", "-recursion", dir+"/fibtc.star")))
 
 	// Yaegi
-	fmt.Printf("| [Yaegi](https://github.com/containous/yaegi) | `%s` | `%s` | Yaegi (Interpreter) |\n",
+	fmt.Printf("| [Yaegi](https://github.com/traefik/yaegi) | `%s` | `%s` | Yaegi (Interpreter) |\n",
 		formatDuration(execCommand("yaegi", dir+"/fib.yaegi")),
 		formatDuration(execCommand("yaegi", dir+"/fibtc.yaegi")))
 

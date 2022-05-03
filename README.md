@@ -21,19 +21,19 @@ For uGO version 0.2.0 release candidate
 
 | | fib(35) | fibt(35) |  Language (Type)  |
 | :--- |    ---: |     ---: |  :---: |
-| [**uGO**](https://github.com/ozanh/ugo) | `2.012461s` | `1.123ms` | uGO (VM) |
-| [Tengo](https://github.com/d5/tengo) | `2.191303s` | `1.128ms` | Tengo (VM) |
-| [go-lua](https://github.com/Shopify/go-lua) | `2.970045s` | `902µs` | Lua (VM) |
-| [GopherLua](https://github.com/yuin/gopher-lua) | `3.236942s` | `1.424ms` | Lua (VM) |
-| [goja](https://github.com/dop251/goja) | `3.359767s` | `1.412ms` | JavaScript (VM) |
-| [starlark-go](https://github.com/google/starlark-go) | `4.714076s` | `1.37ms` | Starlark (Interpreter) |
-| [Yaegi](https://github.com/traefik/yaegi) | `9.942251s` | `5.359ms` | Yaegi (Interpreter) |
-| [gpython](https://github.com/go-python/gpython) | `9.183582s` | `1.6ms` | Python (Interpreter) |
-| [otto](https://github.com/robertkrimen/otto) | `43.902086s` | `4.786ms` | JavaScript (Interpreter) |
-| [Anko](https://github.com/mattn/anko) | `51.944854s` | `1.929ms` | Anko (Interpreter) |
-| Go | `43.428ms` | `788µs` | Go (Native) |
-| Lua | `995.895ms` | `448µs` | Lua (Native) |
-| Python3 | `1.640003s` | `6.296ms` | Python3 (Native) |
+| [**uGO**](https://github.com/ozanh/ugo) | `1.984686s` | `1.261ms` | uGO (VM) |
+| [Tengo](https://github.com/d5/tengo) | `2.185415s` | `1.135ms` | Tengo (VM) |
+| [go-lua](https://github.com/Shopify/go-lua) | `2.898563s` | `1.006ms` | Lua (VM) |
+| [GopherLua](https://github.com/yuin/gopher-lua) | `3.211634s` | `1.74ms` | Lua (VM) |
+| [goja](https://github.com/dop251/goja) | `3.326141s` | `1.414ms` | JavaScript (VM) |
+| [starlark-go](https://github.com/google/starlark-go) | `4.726492s` | `1.369ms` | Starlark (Interpreter) |
+| [Yaegi](https://github.com/traefik/yaegi) | `9.918823s` | `6.171ms` | Yaegi (Interpreter) |
+| [gpython](https://github.com/go-python/gpython) | `9.293992s` | `1.551ms` | Python (Interpreter) |
+| [otto](https://github.com/robertkrimen/otto) | `43.896718s` | `4.697ms` | JavaScript (Interpreter) |
+| [Anko](https://github.com/mattn/anko) | `52.176917s` | `1.902ms` | Anko (Interpreter) |
+| Go | `43.266ms` | `892µs` | Go (Native) |
+| Lua | `1.000147s` | `463µs` | Lua (Native) |
+| Python3 | `1.639605s` | `6.316ms` | Python3 (Native) |
 
 ## 2022-05-03 Results (Apple M1 Parallels VM, Ubuntu 20.04, Go1.17)
 
@@ -41,19 +41,19 @@ For uGO version 0.2.0 release candidate
 
 | | fib(35) | fibt(35) |  Language (Type)  |
 | :--- |    ---: |     ---: |  :---: |
-| [**uGO**](https://github.com/ozanh/ugo) | `1.907682s` | `1.102ms` | uGO (VM) |
-| [Tengo](https://github.com/d5/tengo) | `2.405873s` | `1.173ms` | Tengo (VM) |
-| [go-lua](https://github.com/Shopify/go-lua) | `4.151206s` | `1.097ms` | Lua (VM) |
-| [GopherLua](https://github.com/yuin/gopher-lua) | `4.261906s` | `1.327ms` | Lua (VM) |
-| [goja](https://github.com/dop251/goja) | `4.628215s` | `1.571ms` | JavaScript (VM) |
-| [starlark-go](https://github.com/google/starlark-go) | `5.324552s` | `1.363ms` | Starlark (Interpreter) |
-| [Yaegi](https://github.com/traefik/yaegi) | `12.066798s` | `6.259ms` | Yaegi (Interpreter) |
-| [gpython](https://github.com/go-python/gpython) | `11.700974s` | `1.593ms` | Python (Interpreter) |
-| [otto](https://github.com/robertkrimen/otto) | `52.803458s` | `5.086ms` | JavaScript (Interpreter) |
-| [Anko](https://github.com/mattn/anko) | `58.107654s` | `2.113ms` | Anko (Interpreter) |
-| Go | `90.089ms` | `999µs` | Go (Native) |
-| Lua | `1.036239s` | `559µs` | Lua (Native) |
-| Python3 | `1.640863s` | `6.398ms` | Python3 (Native) |
+| [**uGO**](https://github.com/ozanh/ugo) | `2.126575s` | `1.193ms` | uGO (VM) |
+| [Tengo](https://github.com/d5/tengo) | `2.406659s` | `1.215ms` | Tengo (VM) |
+| [go-lua](https://github.com/Shopify/go-lua) | `4.136014s` | `933µs` | Lua (VM) |
+| [GopherLua](https://github.com/yuin/gopher-lua) | `4.266191s` | `1.471ms` | Lua (VM) |
+| [goja](https://github.com/dop251/goja) | `4.647449s` | `1.748ms` | JavaScript (VM) |
+| [starlark-go](https://github.com/google/starlark-go) | `5.340413s` | `1.333ms` | Starlark (Interpreter) |
+| [Yaegi](https://github.com/traefik/yaegi) | `11.9866s` | `6.287ms` | Yaegi (Interpreter) |
+| [gpython](https://github.com/go-python/gpython) | `11.683367s` | `1.613ms` | Python (Interpreter) |
+| [otto](https://github.com/robertkrimen/otto) | `52.584071s` | `5.265ms` | JavaScript (Interpreter) |
+| [Anko](https://github.com/mattn/anko) | `58.179963s` | `1.948ms` | Anko (Interpreter) |
+| Go | `91.376ms` | `862µs` | Go (Native) |
+| Lua | `1.055571s` | `623µs` | Lua (Native) |
+| Python3 | `1.645764s` | `6.404ms` | Python3 (Native) |
 
 ## 2022-05-03 Results (Apple M1 Parallels VM, Ubuntu 20.04, Go1.17)
 
